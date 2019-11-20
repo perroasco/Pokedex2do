@@ -3,12 +3,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.SplashActivity"
-    android:background="@android:color/holo_blue_dark">
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.SplashActivity">
 
     <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:foregroundGravity="center"
+        android:src="@drawable/pokebola" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/poison" />
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="Pokedex GEN III"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 
 </LinearLayout>

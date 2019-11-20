@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.fer.pokedex.R;
@@ -25,6 +24,7 @@ public class PokemonTypeActivity extends AppCompatActivity implements AsyncTaskH
     RecyclerView damageRelations;
     RecyclerView pokemons;
     PokemonAdapter adapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

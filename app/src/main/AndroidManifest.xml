@@ -11,15 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="org.fer.pokedex.activities.SplashActivity">
+        <activity android:name="org.fer.pokedex.activities.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name="org.fer.pokedex.activities.PokemonTypeActivity" />
-        <activity android:name="org.fer.pokedex.activities.FavoritesActivity" />
-        <activity android:name=".activities.PokemonTypes" />
         <activity android:name="org.fer.pokedex.activities.PokemonDetailsActivity" />
         <activity android:name="org.fer.pokedex.activities.MainActivity"/>
 
